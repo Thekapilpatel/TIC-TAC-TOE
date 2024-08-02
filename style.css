@@ -1,0 +1,90 @@
+/* Basic styling */
+body {
+    background-color: #f0f0f0; /* Light gray */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Header and winning display container */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Header styling */
+h2 {
+    text-align: center;
+    color: #0b5b8d; /* Dark gray */
+    font-size: 2.5rem;
+    /* margin-bottom: 25px; */
+    padding: 0px;
+    margin-bottom: -3px;
+}
+h3{
+    text-align: center;
+    color: #333; /* Dark gray */
+    /* font-size: 2.5rem; */
+    /* margin-bottom: 20px;  */
+    color: red;
+}
+
+/* Container styling */
+.container {
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin-bottom: 90px;
+}
+
+/* Box styling */
+.box {
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    background-color: #f0f0f0; /* Light gray */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 0 5px 15px rgba(16, 95, 155, 0.2);
+    font-size: 4rem;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0; /* Lighter gray on hover */
+}
+
+/* Reset button styling */
+.reset {
+    background-color: #015e97; /* Dark gray */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 40px; /* Push to the bottom */
+
+}
+
+.reset:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+    transform: scale(1.05);
+}
